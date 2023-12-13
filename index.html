@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="menu">
+            <span class="material-symbols-outlined">
+                Menu
+            </span>
+        </label>
+        <div class="logo">
+            <img src="data:image/jpeg;base64,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" alt="logo">
+        </div>
+        <ul>
+            <li>
+                <a href="#" target="_blank">Home</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Services</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Past Investors</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Blogs</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Results</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Resume</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="banner">
+            <div class="banner1">
+                <div class="bannerText">
+                    <span class="intro1">Hi👋,</span>
+                    <br>
+                    <span class="intro2">I am Himadri Mondal,</span>
+                    <br>
+                    <span class="intro3">4-Rated Finance Consultant</span>
+                </div>
+                <div class="about">
+                    I help companies make better investments in a wide range of fields in several countries. These include banking, pharmacy, logistics, food-chains, etc. I am a certified professional associated with Club of Investors, RBI.
+                </div>
+                <br>
+                <div class="social">
+                    Social Media Links:
+                    <br>
+                    <a href="Linkedin.com" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOX88V1q_-LhRyh6ToGcdQX5ZVg6FY89zgQ&usqp=CAU" alt="Image not loaded" class="media"></a>
+                    <a href="Instagram.com" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVNthwpFXoDvKWRGLPkXwIn4dRWmeJ0dDm3w&usqp=CAU" alt="Image not loaded" class="media"></a>
+                    <a href="Facebook" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkAosNYA0mES3agoig-_u8dX_k2JVNYokVg&usqp=CAU" alt="Image not loaded" class="media"></a>
+                    <a href="Pinterest.com" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMz8RdPGLV1qlZ8dcU_Rqz4mHbh4M0N1XObg&usqp=CAU" alt="Image not loaded" class="media"></a>
+                </div>
+                <div class="links">
+                    <span class="link1">
+                        <a href="#" target="_blank">Contact Us</a>
+                    </span>
+                    <span class="link2">
+                        <a href="#" target="_blank">See My Resume</a>
+                    </span>
+                </div>
+            </div>
+            <div class="bannerImg">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBq6f7k9ZXWHLdZGOyrkI0GPuRhpvMv3oN2w&usqp=CAU" alt="Image can't be loaded">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="main">
+            <div class="description">
+                <span class="about1">About Me:-</span>
+                <div class="education">
+                    <span class="edu">📖Educational Details:</span>
+                    <div class="edu1">
+                        <ul>
+                            <li>Completed Higher Secondary Studies from Rajasthan, Kota</li>
+                            <li>Completed BTech+MTech in Industrial Management from IIT KGP</li>
+                            <li>Completed MBA from IIM Calcutta</li>
+                            <li>Pursuing Business Investment Training in IIM Ahmedabad</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="indexp">
+                    <span class="exp">🏭Industrial Experiences:</span>
+                    <div class="exp1">
+                        <ul>
+                            <li>Internship(6 Months) in Flipkart Logistics</li>
+                            <li>Training(3 Months) in Starbucks Chain</li>
+                            <li>Training(4 Months) in Cipla Share</li>
+                            <li>Internship(Ongoing) in HDFC Investors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="reviews">
+                <div class="reviewtable">
+                    <span class="review1">
+                        <p>
+                            Here are some of the reviews from my past collaborators:
+                        </p>
+                    </span>
+                    <table>
+                        <thead class="thead">
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Name</th>
+                                <th>Company</th>
+                                <th>Review</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr>
+                                <td class="a1">1</td>
+                                <td class="a2">Atharv Rathore</td>
+                                <td class="a3"><a href="#">BluePharma Co.</a></td>
+                                <td class="a4">Wish I got in touch with him sooner, made my whole initial investment process so much easier and hassle-free. Almost the whole initial supply-chain was exclusively setup by him.</td>
+                            </tr>
+                            <tr>
+                                <td class="a1">2</td>
+                                <td class="a2">Rajan Mahale</td>
+                                <td class="a3"><a href="#">Bihar Small Investments Bank</a></td>
+                                <td class="a4">His wide range of contacts made it very helpful for me to get the whole bank structure up and running as early as seed rounds of investment. Also he is the first account opener of my bank.</td>
+                            </tr>
+                            <tr>
+                                <td class="a1">3</td>
+                                <td class="a2">Supriya Laxmi</td>
+                                <td class="a3"><a href="#">Grocers Home Delivery App</a></td>
+                                <td class="a4">I doubt my dream of opening and running a online food chain would have been possible without his help. He even provided line of credits and bought several others investors in for my company.</td>
+                            </tr>
+                            <tr>
+                                <td class="a1">4</td>
+                                <td class="a2">Soham Ghare</td>
+                                <td class="a3"><a href="#">Solaris Rooftops</a></td>
+                                <td class="a4">I didn't expect him to have any knowledge regarding solar panel market, but its because of him that my company has seen exponential growth, even ventured into multiple states.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="para">And so on.....</p>
+                </div>
+            </div>
+            <br>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="motto">
+            Our Motto - ALWAYS BELIEVE IN REALITY & TRANSPARENCY, OUR HARSHEST BUT TRUEST FRIENDS. 
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="credits">
+            <!-- Quick Links -->
+            <div class="links">
+                <div class="home">
+                    <a href="#" target="_blank">Homepage</a>
+                </div>
+                <div class="services">
+                    <a href="#" target="_blank">Services</a>
+                </div>
+                <div class="blogs">
+                    <a href="#" target="_blank">Blogs</a>
+                </div>
+                <div class="contact">
+                    <a href="#" target="_blank">ContactUs</a>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="no1">
+                <a href="#" target="_blank">Ph No: +91-8562359456(Investment)</a>
+            </div>
+            <div class="no2">
+                <a href="#" target="_blank">Ph No: +91-7456253651(Collaboration)</a>
+            </div>
+            <div class="email">
+                <a href="#" target="_blank">Email ID: himadri_mondal@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
